@@ -1,0 +1,327 @@
+.navbar {
+  background-color: #ffffff;
+  padding: 0 1rem;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.navbar-div {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.navbar li.active {
+  background-color: #555;
+  border-radius: 20%;
+}
+
+.navbar li:hover {
+  background-color: #c5c5c5;
+  border-radius: 20%;
+}
+
+.nav-links {
+  list-style: none;
+  gap: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.login-form-box {
+  padding: 2rem;
+  box-shadow: 0px 10px 15px -3px rgba(164, 164, 164, 0.1);
+  width: 50%;
+  margin-left: 25%;
+}
+.login-form-box .login-title {
+  font-size: 0.8rem;
+  margin: 0.5rem 0 1rem 0;
+}
+.login-form-box .login-title-border {
+  margin-top: 0.5rem;
+  border-bottom: 1px solid lightslategray;
+  width: 7%;
+}
+.login-form-box .login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.login-form-box .login-form .login-input {
+  flex: 1;
+}
+.login-form-box .login-form .login-input .register-link {
+  display: flex;
+  gap: 1rem;
+}
+.login-form-box .login-form .login-input .register-link .link {
+  text-decoration: none;
+}
+.login-form-box .login-form .login-input .register-link span {
+  font-size: 0.8rem;
+  color: crimson;
+}
+.login-form-box .login-form .login-input label {
+  font-size: 0.8rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.login-form-box .login-form .login-input input {
+  width: 100%;
+  padding: 0.5rem;
+  background: whitesmoke;
+  border: none;
+  outline: none;
+}
+.login-form-box .login-form .login-input .forgot-pw {
+  display: flex;
+  justify-content: space-between;
+}
+.login-form-box .login-form .login-input .forgot-pw .link {
+  text-decoration: none;
+}
+.login-form-box .login-form .login-input .forgot-pw span {
+  font-size: 0.8rem;
+  color: crimson;
+}
+.login-form-box .login-form .login-checkbox {
+  display: inline-flex;
+  gap: 10px;
+}
+.login-form-box .login-form .login-checkbox label {
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.login-form-box .login-form .login-checkbox input[type=checkbox] {
+  background: red;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.login-form-box .login-form .login-btn {
+  font-size: 0.8rem;
+  color: white;
+  background-color: crimson;
+  padding: 0.8rem 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.login-btn:hover {
+  background-color: #8a2121;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.login-btn:active {
+  background-color: #441616;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.products-container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-left: 20%;
+}
+.products-container-1 .products-container-2 {
+  margin: 1%;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.products-container-1 .products-container-2 h3 {
+  font-size: 1.5rem;
+  padding-bottom: 5px;
+}
+.products-container-1 .products-container-2 img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.products-container-1 .products-container-2 p {
+  padding-bottom: 2px;
+}
+.products-container-1 .products-container-2 p span {
+  color: green;
+  font-size: large;
+  font-weight: bolder;
+  padding-bottom: 40px;
+}
+.products-container-1 .products-container-2 h4 {
+  margin-top: 5%;
+}
+.products-container-1 .products-container-2 a {
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  padding: 5px 50px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 50px 20px 50px 20px;
+}
+
+.details-container-main {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-left: 25%;
+  padding-bottom: 2%;
+}
+.details-container-main .details-container-1 {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 5%;
+}
+.details-container-main .details-container-1 img {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.details-container-main .details-container-2 {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5%;
+}
+.details-container-main .details-container-2 .details-container-2-1 h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.details-container-main .details-container-2 .details-container-2-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.details-container-main .details-container-2 .details-container-2-2 p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.details-container-main .details-container-2 .details-container-2-2 h4 {
+  background-color: green;
+  padding: 5px 37px;
+  border-radius: 50px 20px 50px 20px;
+}
+.details-container-main .details-container-2 .details-container-2-2 h4 a {
+  text-decoration: none;
+  color: white;
+}
+
+.details-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+  background-color: rgba(201, 201, 201, 0.5176470588);
+  margin-bottom: 5%;
+}
+
+.user-container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-left: 35%;
+  margin-right: 30%;
+  margin-top: 5vh;
+  width: 30vw;
+}
+.user-container-1 h1 {
+  margin-left: 35%;
+  padding-bottom: 2vh;
+}
+.user-container-1 .user-container-2 {
+  background-color: rgba(201, 201, 201, 0.5176470588);
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  padding: 5%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+.user-container-1 .user-container-2 .user-userId {
+  font-style: italic;
+}
+.user-container-1 .user-container-2 .user-userId span {
+  font-style: normal;
+  font-size: medium;
+}
+.user-container-1 .user-container-2 .user-status {
+  font-style: italic;
+}
+.user-container-1 .user-container-2 .user-status span {
+  color: green;
+  text-decoration: underline;
+  font-style: normal;
+  font-size: larger;
+}
+.user-container-1 .user-container-2 .user-orderId {
+  font-style: italic;
+}
+.user-container-1 .user-container-2 .user-orderId span {
+  font-style: normal;
+}
+.user-container-1 .user-container-2 .user-productInfo {
+  background-color: white;
+  padding: 5px;
+  margin-top: 5px;
+}
+.user-container-1 .user-container-2 .user-productInfo p {
+  color: black;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100dvh;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}/*# sourceMappingURL=App.css.map */

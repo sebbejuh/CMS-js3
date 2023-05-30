@@ -1,0 +1,21 @@
+@import "./assets/variables";
+@import "./assets/mixins";
+@import "./assets/navbar";
+@import "./assets/login";
+@import "./assets/products";
+@import "./assets/orders";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    padding: 0;
+    margin: 0;
+}
+
+#root {
+    height: 100%;
+}
+

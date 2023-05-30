@@ -1,0 +1,181 @@
+.products-container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 1%;
+    .products-container-1-1{
+        border-radius: 10px;
+        border-color: black;
+        border-style: solid;
+        padding: 2%;
+        background-color: #c9c9c984;
+        width: 30%;
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        // flex-wrap: wrap;
+        .products-container-1-1-1{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+            form{
+                width: 100%;
+                display: flex;
+                // align-items: center;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+                input{
+                    width: 100%;
+                }
+                textarea{
+                    width: 100%;
+                    min-height: 100px;
+                }
+                button{
+                    font-size: large;
+                    padding: 5px 10px 5px 10px;
+                    margin-top: 15px;
+                    text-decoration: none;
+                    background-color: green;
+                    color: white;
+                    font-size: large;
+                    font-weight: bold;
+                    border-radius: 50px 20px 50px 20px;
+                    cursor: pointer;
+                }
+        }
+    }
+    .products-container-1-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 1%;
+    }
+        .products-container-1-2-2{
+            border-radius: 10px;
+            border-color: black;
+            border-style: solid;
+            padding: 2%;
+            background-color: #c9c9c984;
+            // margin: 1%;
+            width: 35%;
+            min-height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 1%;
+            p{
+                font-size: 0.8rem;
+                padding-bottom: 2px;
+                font-weight: bold;
+                span{
+                    font-size: large;
+                    font-style: italic;
+                    font-weight: bold;
+                    padding-bottom: 40px; 
+                }
+            }
+            h4{
+                margin-top: 5%;
+            }
+            a{
+                text-decoration: none;
+                background-color: green;
+                color: white;
+                padding: 5px 50px;
+                font-size: large;
+                font-weight: bold;
+                border-radius: 50px 20px 50px 20px;
+                
+            }
+            .products-container-1-2-1{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+        }
+}
+//product details
+.products-d-container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 20%;
+    .products-d-container-2{
+        border-radius: 10px;
+        border-color: black;
+        border-style: solid;
+        padding: 2%;
+        background-color: #c9c9c984;
+        // margin: 1%;
+        width: 75%;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10%;
+        p{
+            font-size: 0.8rem;
+            padding-bottom: 1%;
+            font-weight: bold;
+            span{
+                font-size: large;
+                // font-style: italic;
+                font-weight: 400;
+                padding-bottom: 40px; 
+            }
+        }
+        h4{
+            margin-top: 5%;
+        }
+        .products-d-container-2-1{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            input{
+                height: 50px;
+                font-size: large;
+                width: 50px;
+                margin: 0 10px;
+            }
+            button{
+                font-size: large;
+                padding: 0px 20px 0px 20px;
+                margin: 0 10px;
+                text-decoration: none;
+                background-color: green;
+                color: white;
+                font-size: large;
+                font-weight: bold;
+                border-radius: 50px 20px 50px 20px;
+                cursor: pointer;
+            }
+            .deletebtn{
+                background-color: red;
+                margin-left: 1%;
+            }
+            p, label{
+                display: flex;
+                font-size: large;
+                align-items: center;
+                font-weight: bold;
+            }
+            p{
+                margin-top: 1%;
+            }
+        }
+    }
+}

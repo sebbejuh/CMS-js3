@@ -1,0 +1,111 @@
+.login-form-box {
+  padding: 2rem;
+  box-shadow: 0px 10px 15px -3px rgba(164, 164, 164, 0.1);
+  width: 50%;
+  margin-left: 25%;
+
+  .login-title {
+    font-size: 0.8rem;
+    margin: 0.5rem 0 1rem 0;
+  }
+
+  .login-title-border {
+    margin-top: 0.5rem;
+    border-bottom: 1px solid lightslategray;
+    width: 7%;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .login-input {
+      flex: 1;
+
+      .register-link {
+        display: flex;
+        gap: 1rem;
+
+        .link {
+          text-decoration: none;
+        }
+        span {
+          font-size: 0.8rem;
+          color: crimson;
+        }
+      }
+
+      label {
+        font-size: 0.8rem;
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+
+      input {
+        width: 100%;
+        padding: 0.5rem;
+        background: whitesmoke;
+        border: none;
+        outline: none;
+      }
+
+      .forgot-pw{
+        display: flex;
+        justify-content: space-between;
+
+        .link {
+            text-decoration: none;
+          }
+          span {
+            font-size: 0.8rem;
+            color: crimson;
+          }
+
+      }
+
+    }
+
+    .login-checkbox {
+      display: inline-flex;
+      gap: 10px;
+
+      label {
+        font-size: 0.8rem;
+        cursor: pointer;
+      }
+
+      input[type="checkbox"] {
+        background: red;
+        border: none;
+        outline: none;
+        cursor: pointer;
+      }
+    }
+
+    .login-btn {
+        font-size: 0.8rem;
+        color: white;
+        background-color: crimson;
+        padding: 0.8rem 2rem;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        align-self: flex-start;
+      }
+      
+      
+  }
+}
+
+.login-btn:hover {
+  background-color: #8a2121;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.login-btn:active {
+  background-color: #441616;
+  opacity: 0.8;
+  cursor: pointer;
+}

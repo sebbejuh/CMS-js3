@@ -1,0 +1,101 @@
+.order-container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 35%;
+    margin-right: 30%;
+    margin-top: 5vh;
+    width: 30vw;
+    // background-color: aqua;
+    h1{
+        margin-left: 35%;
+        padding-bottom: 2vh;
+    }
+    .order-container-2{
+        background-color: #c9c9c984;
+        border-radius: 10px;
+        border-color: black;
+        border-style: solid;
+        padding: 5%;
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        margin-bottom: 10%;
+        .order-orderId{
+            font-style: italic;
+            span{
+                font-style: normal;
+                font-size: medium;
+            }
+        }
+        .order-status{
+            font-style: italic;
+            span{
+                color: green;
+                text-decoration: underline;
+                font-style: normal;
+                font-size: larger;
+            }
+        }
+        .order-orderId{
+            font-style: italic;
+            span{
+                font-style: normal;
+            }
+        }
+        .order-productInfo{
+            background-color: white;
+            padding: 5px;
+            margin-top: 5px;
+            p{
+                color: black;
+                font-weight: bold;
+            }
+        }
+        h4{
+            margin-top: 5%;
+        }
+        a{
+            text-decoration: none;
+            background-color: green;
+            color: white;
+            padding: 5px 50px;
+            font-size: large;
+            font-weight: bold;
+            border-radius: 50px 20px 50px 20px;
+        }
+    }
+}
+.order-container-2-1{
+    margin-top: 5%;
+    label{
+        font-size: large;
+        font-weight: bold;
+    }
+    select{
+        font-size: large;
+        font-weight: bold;
+        cursor: pointer;
+        option{
+            cursor: pointer;
+            color: white;
+            background-color: green;
+            font-weight: bold;
+        }
+    }
+    button{
+        font-size: large;
+        padding: 5px 20px 5px 20px;
+        text-decoration: none;
+        background-color: green;
+        color: white;
+        font-size: large;
+        font-weight: bold;
+        border-radius: 50px 20px 50px 20px;
+        cursor: pointer;
+        margin-left: 5%;
+    }
+}
