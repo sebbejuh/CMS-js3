@@ -22,16 +22,26 @@ const Login = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const res = await fetch("http://localhost:7777/api/users/admin", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(loginData),
-        });
-        const data = await res.json();
-        updateToken(data.token);    //gets token from data
-        navigate("/products");
+        try {
+            const res = await fetch("http://localhost:7777/api/users/admin", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(loginData),
+            });
+            const data = await res.json();
+
+            if (data.token) {   //if token was recieved
+                updateToken(data.token); //gets token from data and runs it through updateToken function
+            } else {    //if token wasn't recieved
+                updateToken(null); //sends null to function which avoids it being a string "undefined" which can't be parsed
+            }
+
+            navigate("/products");
+        } catch (error) {
+            console.log(error);
+        }
     };
 
     return (
