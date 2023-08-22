@@ -8,6 +8,8 @@ Written using JavaScript, HTML & CSS (using SASS).
 
 This project was created for a school assignment and functionality was prioritized over looks.
 
+Before attempting setup and installatation you should contact me for the .env file which for security reasons isn't part of this public project.
+
 ## Installation and Setup Instructions
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
@@ -36,3 +38,9 @@ Open another terminal at path: _CMS-js3/Frontend_
 ### To Login to CMS:
 
 Use login credentials in the .ENV file.
+
+### To run a small test:
+
+Open one terminal at path: _CMS-js3/Frontend_
+
+`npm run test`
