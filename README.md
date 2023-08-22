@@ -8,7 +8,7 @@ Written using JavaScript, HTML & CSS (using SASS).
 
 This project was created for a school assignment and functionality was prioritized over looks.
 
-Before attempting setup and installatation you should contact me for the .env file which for security reasons isn't part of this public project.
+Before attempting setup and installation you should contact me for the .env file which for security reasons isn't part of this public project.
 
 ## Installation and Setup Instructions
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
